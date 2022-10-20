@@ -1,24 +1,32 @@
 .place__title {
-  /*box-sizing: border-box;*/
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
   line-height: 35px;
   margin: 0 0 32px 0;
   padding: 0 16px;
-  max-width: 288px;
+  min-width: 288px;
+}
+
+.place__title:last-of-type {
+  margin-top: 5px;
 }
 
 @media screen and (min-width: 768px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
-    padding: 0;
-    margin: 0;
+    margin-bottom: 0;
+    padding-right: 17px;
+    padding-left: 0;
     max-width: 340px;
+  }
 
+  .place__title:last-of-type {
+    margin-top: 0;
   }
 }
+
 
 @media screen and (min-width: 1024px) {
   .place__title {

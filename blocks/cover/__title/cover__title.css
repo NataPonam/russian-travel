@@ -4,8 +4,7 @@
   font-size: 32px;
   line-height: 35px;
   margin: 0 0 16px;
-  min-width: 288px;
-  white-space: pre-line;
+  max-width: 288px;
 }
 
 
@@ -14,5 +13,6 @@
     font-size: 72px;
     line-height: 76px;
     margin-bottom: 32px;
+    max-width: 560px;
   }
 }

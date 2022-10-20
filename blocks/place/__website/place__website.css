@@ -1,15 +1,15 @@
 .place__website {
   max-width: 288px;
-  margin: 0;
   padding: 0 16px;
-  margin-bottom: 32px;
+  margin-bottom: 33px;
   align-self: end;
 }
 
 @media screen and (min-width: 768px) {
   .place__website {
-    padding: 0;
-    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
     max-width: 340px;
+    margin: 0;
   }
 }
