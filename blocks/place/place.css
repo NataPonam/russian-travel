@@ -3,12 +3,20 @@
   grid-template-columns: repeat(auto, minmax(284px, 1fr));
 }
 
+.place:last-of-type {
+  margin-top: 26px;
+}
+
 
 @media screen and (min-width: 600px) {
   .place {
     grid-template-columns: repeat(2, minmax(284px, 1fr));
     gap: 47px 28px;
     margin: 0 auto;
+  }
+
+  .place:last-of-type {
+    margin-top: 0;
   }
 }
 

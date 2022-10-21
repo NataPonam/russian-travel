@@ -8,9 +8,6 @@
   min-width: 288px;
 }
 
-.place__title:last-of-type {
-  margin-top: 5px;
-}
 
 @media screen and (min-width: 768px) {
   .place__title {
@@ -20,10 +17,6 @@
     padding-right: 17px;
     padding-left: 0;
     max-width: 340px;
-  }
-
-  .place__title:last-of-type {
-    margin-top: 0;
   }
 }
 
